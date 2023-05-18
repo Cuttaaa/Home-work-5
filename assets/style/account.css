@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: black;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1248px;
+}
+
+.header {
+    position: sticky;
+    background-color: black;
+    top: 0;
+    width: 100%;
+    max-width: 1248px;
+    height: 42px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 12;
+}
+
+.nav-wrapper {
+    width: 100%;
+    max-width: 440px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+    max-width: 318px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 3rem;
+}
+
+.nav-link {
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white;
+    transition: 200ms ease-in-out;
+}
+
+.nav-link:hover {
+    scale: 1.9;
+}
+
+.nav-link:visited {
+    color: white;
+}
+
+.menu {
+    width: 100%;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    border-left: 2px solid white;
+
+}
+
+.menu-link {
+    transition: 200ms ease-in-out;
+}
+
+.menu-link:hover {
+    scale: 1.9;
+}
+
+.menu img {
+    height: 12.8px;
+}
+
+/* main */
+
+.main {
+    width: 100%;
+    max-width: 500px;
+    height: 621px;
+    margin: 128px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.my-account {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 43px;
+    color: #FBFBFB;
+}
+
+.variant {
+    width: 100%;
+    max-width: 500px;
+}
+
+.variant-items {
+    width: 100%;
+    max-width: 500px;
+    background: #272727;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 64px;
+}
+
+.sign-in {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 15px 0;
+    margin-right: 5px;
+    background: #0A0A0A;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.register {
+    width: 50%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin-left: 5px;
+    background: #0A0A0A;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.input-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.authentication__signin {
+    margin-top: 126px;
+    height: 315px;
+}
+
+.email-input {
+    background-color: inherit;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9A9A9A;
+    border-bottom: 1px solid #3D3D3D;
+    padding-bottom: 12px;
+    transition: 200ms ease-in-out;
+}
+
+.email-input:focus {
+    scale: 1.1;
+}
+
+.password-input {
+    margin-top: 46px;
+    background-color: inherit;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9A9A9A;
+    border-bottom: 1px solid #3D3D3D;
+    padding-bottom: 12px;
+    transition: 200ms ease-in-out;
+}
+
+.password-input:focus {
+    scale: 1.1;
+}
+
+.stay-login {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FBFBFB;
+}
+
+.checkbox {
+    margin: 0 !important;
+}
+
+.stay-login p {
+    margin-left: 8px;
+}
+
+.sign__in {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign__in-button {
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0A0A0A;
+    background-color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+    border-radius: 4px;
+    padding: 18px 0;
+    margin-top: 69px;
+}
+
+.recovery {
+    margin-top: 13px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #FBFBFB;
+    cursor: pointer;
+}
+
+.authentication__register {
+    margin-top: 126px;
+    height: 315px;
+}
+
+.register-button {
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0A0A0A;
+    background-color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+    border-radius: 4px;
+    padding: 18px 0;
+    margin-top: 69px;
+}
+
+.input-data input {
+    margin-top: 46px;
+    background-color: inherit;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9A9A9A;
+    border-bottom: 1px solid #3D3D3D;
+    padding-bottom: 12px;
+    transition: 200ms ease-in-out;
+}
+
+.input-data input:focus {
+    scale: 1.1;
+}
+
+.authentication__register,
+.authentication__signin:target {
+    display: block;
+}
+
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    margin-top: 250px;
+    border-top: 1px solid #3D3D3D;
+    padding-bottom: 92px;
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #9A9A9A;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.footer__nav {
+    display: flex;
+}
+
+.index:visited {
+    color: #9A9A9A;
+}
+
+.footer__nav-item {
+    padding-right: 41px;
+    cursor: pointer;
+}
+
+.footer__input-wrapper {
+    border-bottom: 1px solid #FBFBFB;
+    position: relative;
+}
+
+.footer__input {
+    width: 396px;
+    background: black;
+    padding-bottom: 13px;
+    color: #9A9A9A;
+
+}
+
+.footer__input-image {
+    position: absolute;
+    left: 94%;
+    right: 0%;
+    top: 33.33%;
+    bottom: 61.17%;
+    width: 25px;
+    height: 8.74px;
+    cursor: pointer;
+}
+
+.footer__menu-link {
+    padding-right: 30px;
+}
+
+.footer__menu-link:last-child {
+    padding-right: 0;
+}
